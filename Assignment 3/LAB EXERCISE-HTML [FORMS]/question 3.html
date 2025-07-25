@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>question 3</title>
+</head>
+<body>
+  <form>
+    Name:<br />
+    <input type="text" name="name" required /><br /><br />
+
+    Email:<br />
+    <input type="email" name="email" required /><br /><br />
+
+    Rate the Website:<br />
+    <input type="radio" name="rating" value="1" required />1
+    <input type="radio" name="rating" value="2" />2
+    <input type="radio" name="rating" value="3" />3
+    <input type="radio" name="rating" value="4" />4
+    <input type="radio" name="rating" value="5" />5<br /><br />
+
+    Type of Feedback:<br />
+    <select name="feedbackType" required>
+      <option value="" disabled selected>Select</option>
+      <option value="suggestion">Suggestion</option>
+      <option value="bug">Bug Report</option>
+      <option value="compliment">Compliment</option>
+    </select><br /><br />
+
+    Feedback:<br />
+    <textarea name="feedback" required></textarea><br /><br />
+
+    Would you recommend us?<br />
+    <input type="radio" name="recommend" value="yes" required />Yes
+    <input type="radio" name="recommend" value="no" />No<br /><br />
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
