@@ -1,0 +1,55 @@
+<html>
+<head><title>question 4</title></head>
+<body>
+
+<h2>Health Survey Form</h2>
+
+<form>
+  Name:<br>
+  <input type="text" name="name" required><br><br>
+
+  Age:<br>
+  <input type="number" name="age" required><br><br>
+
+  Gender:<br>
+  <input type="radio" name="gender" value="male" required> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+  Height (cm):<br>
+  <input type="number" name="height" required><br><br>
+
+  Weight (kg):<br>
+  <input type="number" name="weight" required><br><br>
+
+  Lifestyle:<br>
+  <input type="checkbox" value="smoking"> Smoking
+  <input type="checkbox" value="alcohol"> Alcohol
+  <input type="checkbox" value="exercise"> Exercise
+  <input type="checkbox" value="sleep"> Sleep<br><br>
+
+  Dietary Preference:<br>
+  <select required>
+    <option value="">--Select--</option>
+    <option>Vegetarian</option>
+    <option>Non-Vegetarian</option>
+    <option>Vegan</option>
+  </select><br><br>
+
+  Activity Level:<br>
+  <select required>
+    <option value="">--Select--</option>
+    <option>Sedentary</option>
+    <option>Moderate</option>
+    <option>Active</option>
+  </select><br><br>
+
+  Health Concerns (optional):<br>
+  <textarea rows="3" cols="30" placeholder="e.g., diabetes, allergies"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

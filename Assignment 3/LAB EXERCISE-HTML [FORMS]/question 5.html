@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>question 5</title>
+</head>
+<body>
+
+  <h2>Travel Booking Form</h2>
+
+  <form>
+    Full Name:<br>
+    <input type="text" name="fullname" required><br><br>
+
+    Contact Info:<br>
+    <input type="tel" name="contact" placeholder="Phone or Email" required><br><br>
+
+    Destination:<br>
+    <select name="destination" required>
+      <option value="">--Select--</option>
+      <option>London</option>
+      <option>New York</option>
+      <option>Melbourne</option>
+      <option>Chennai</option>
+    </select><br><br>
+
+    Travel Dates:<br>
+    Departure: <input type="date" name="departure" required><br>
+    Return: <input type="date" name="return"><br><br>
+
+    Number of Travelers:<br>
+    <input type="number" name="travelers" min="1" required><br><br>
+
+    Travel Class:<br>
+    <input type="radio" name="class" value="economy" required> Economy
+    <input type="radio" name="class" value="business"> Business
+    <input type="radio" name="class" value="first"> First Class<br><br>
+
+    <input type="checkbox" name="insurance"> Add Travel Insurance<br><br>
+
+    
+    Estimated Total Cost:<br>
+    <input type="text" name="totalcost" placeholder="(calculated value)" readonly><br><br>
+
+    <input type="submit" value="Book Now">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>
+</html>
